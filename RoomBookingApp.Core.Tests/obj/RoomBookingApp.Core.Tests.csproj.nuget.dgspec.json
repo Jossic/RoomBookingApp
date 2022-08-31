@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jossic/Dropbox/JOSSIC/6-development/Devs/RoomBookingApp/RoomBookingApp.Core.Tests/RoomBookingApp.Core.Tests.csproj": {}
+    "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\RoomBookingApp\\RoomBookingApp.Core.Tests\\RoomBookingApp.Core.Tests.csproj": {}
   },
   "projects": {
-    "/Users/jossic/Dropbox/JOSSIC/6-development/Devs/RoomBookingApp/RoomBookingApp.Core.Tests/RoomBookingApp.Core.Tests.csproj": {
+    "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\RoomBookingApp\\RoomBookingApp.Core.Tests\\RoomBookingApp.Core.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jossic/Dropbox/JOSSIC/6-development/Devs/RoomBookingApp/RoomBookingApp.Core.Tests/RoomBookingApp.Core.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\RoomBookingApp\\RoomBookingApp.Core.Tests\\RoomBookingApp.Core.Tests.csproj",
         "projectName": "RoomBookingApp.Core.Tests",
-        "projectPath": "/Users/jossic/Dropbox/JOSSIC/6-development/Devs/RoomBookingApp/RoomBookingApp.Core.Tests/RoomBookingApp.Core.Tests.csproj",
-        "packagesPath": "/Users/jossic/.nuget/packages/",
-        "outputPath": "/Users/jossic/Dropbox/JOSSIC/6-development/Devs/RoomBookingApp/RoomBookingApp.Core.Tests/obj/",
+        "projectPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\RoomBookingApp\\RoomBookingApp.Core.Tests\\RoomBookingApp.Core.Tests.csproj",
+        "packagesPath": "C:\\Users\\JossicLapierre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\JossicLapierre\\Dropbox\\JOSSIC\\6-development\\Devs\\RoomBookingApp\\RoomBookingApp.Core.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/jossic/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\JossicLapierre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,6 +47,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.1.0, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -74,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

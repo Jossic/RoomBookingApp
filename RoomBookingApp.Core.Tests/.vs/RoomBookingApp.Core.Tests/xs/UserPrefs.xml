@@ -1,18 +1,16 @@
 ﻿<Properties StartupConfiguration="{9D61804D-7D43-40CA-BD49-A6926FC1CEC0}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="UnitTest1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RoomBookingRequestProcessorTest.cs">
     <Files>
-      <File FileName="UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="RoomBookingRequestProcessorTest.cs" Line="16" Column="43" />
+      <File FileName="RoomBookingRequestProcessor.cs" Line="5" Column="16" />
+      <File FileName="RoomBookingRequest.cs" Line="1" Column="1" />
+      <File FileName="RoomBookingResult.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RoomBookingApp.Core.Tests" expanded="True">
-            <Node name="RoomBookingApp.Core.Tests" expanded="True" selected="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
-            </Node>
+            <Node name="RoomBookingApp.Core.Tests" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -26,10 +24,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.RoomBookingApp.Core.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.RoomBookingApp.Core.Tests FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

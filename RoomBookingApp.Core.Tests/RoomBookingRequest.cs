@@ -5,6 +5,6 @@ namespace RoomBookingApp.Core
     {
         public string FullName { get; set; }
         public string Email { get; set; }
-        public DateTimeOffset Date { get; set; }
+        public DateTime Date { get; set; }
     }
 }

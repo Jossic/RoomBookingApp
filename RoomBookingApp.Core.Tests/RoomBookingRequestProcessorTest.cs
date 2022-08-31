@@ -1,22 +1,30 @@
-﻿using System;
+﻿using Shouldly;
 namespace RoomBookingApp.Core
 {
-	public class RoomBookingRequestProcessorTest
-	{
-		[Fact]
-		public void Should_return_room_booking_response_with_request_value()
+    public class RoomBookingRequestProcessorTest
+    {
+        [Fact]
+        public void Should_return_room_booking_response_with_request_value()
         {
-			var BookingRequest = new RoomBookingRequest
-			{
-				FullName = "Test Name",
-				Email = "test@mqil.com",
-				Date = new DateTimeOffset(DateTime.Now)
-			};
+            // Arrange
+            var request = new RoomBookingRequest
+            {
+                FullName = "Test Name",
+                Email = "test@mqil.com",
+                Date = new DateTime(2022, 08, 31)
+            };
 
-			var processor = new RoomBookingRequestProcessor();
+            var processor = new RoomBookingRequestProcessor();
 
-			RoomBookingResult result = processor.BookRoom(BookingRequest);
+            // Act
+            RoomBookingResult result = processor.BookRoom(request);
+
+            // Assert
+            result.ShouldNotBeNull();
+            request.FullName.ShouldBe(result.FullName);
+            request.Email.ShouldBe(result.Email);
+            request.Date.ShouldBe(result.Date);
         }
-	}
+    }
 }
 
